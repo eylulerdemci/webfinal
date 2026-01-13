@@ -1,0 +1,72 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Yorum kartı */
+.comment-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ⭐⭐⭐⭐⭐ YILDIZ SİSTEMİ */
+.rating {
+  margin-top: 6px;
+}
+
+/* ALTIN SARISI PARLAYAN YILDIZ */
+.star {
+  font-size: 1.5rem;
+  color: #f5c518 !important; /* IMDb ALTIN */
+  text-shadow:
+    0 0 4px rgba(245,197,24,0.8),
+    0 0 8px rgba(245,197,24,0.6);
+}
+
+/* BOŞ YILDIZ */
+.star.empty {
+  color: #ddd !important;
+  text-shadow: none;
+}
+
+/* Navbar */
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+/* Buton hover */
+.btn-danger {
+  transition: transform 0.2s ease;
+}
+
+.btn-danger:hover {
+  transform: scale(1.05);
+}
+
+/* Progress */
+.progress {
+  border-radius: 20px;
+}
+
+.progress-bar {
+  font-weight: bold;
+}.comment-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.emoji-star {
+  font-size: 1.4rem;
+  margin-right: 2px;
+}
+
+.emoji-star.empty {
+  opacity: 0.3;
+}
